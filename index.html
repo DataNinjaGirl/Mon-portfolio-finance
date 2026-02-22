@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hasnaa Sammoud - Portfolio</title>
+    <title>Hasnaa Sammoud - Portfolio Finance</title>
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,81 +13,250 @@
     <nav>
         <div class="logo">Hasnaa Sammoud</div>
         <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#parcours">Parcours</a></li>
+            <li><a href="#expertises">Expertises</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#formations">Formations</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <!-- Section Accueil (Hero) -->
     <section id="home">
-        <h1>Hasnaa Sammoud</h1>
-        <p>Junior Analyst – Corporate Finance & Transactions</p>
-        <p>MSc Finance Internationale | Modélisation financière | Consolidation IFRS | Reporting ESG</p>
+        <div class="hero-content">
+            <h1>Hasnaa Sammoud</h1>
+            <p class="subtitle">Junior Analyst – Corporate Finance & Transactions</p>
+            <p class="desc">MSc Finance Internationale | Modélisation financière | Consolidation IFRS | Reporting ESG</p>
+            <a href="#contact" class="btn">Me contacter</a>
+        </div>
     </section>
 
-    <!-- Section Services -->
-    <section id="services">
-        <h2>Mes expertises</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <h3>📊 Modélisation financière</h3>
-                <p>DCF, LBO, analyses de sensibilité pour évaluation d'entreprises.</p>
+    <!-- Section Parcours Professionnel -->
+    <section id="parcours">
+        <h2>Parcours Professionnel</h2>
+        <div class="timeline">
+            <!-- Expérience 1 -->
+            <div class="timeline-item">
+                <div class="timeline-left">
+                    <span class="date">Sept 2024 - Sept 2025</span>
+                </div>
+                <div class="timeline-right">
+                    <h3>Alternante en Finance opérationnelle</h3>
+                    <p class="company">Descartes & Mauss, Paris</p>
+                    <ul>
+                        <li>Analyse et mesure de la performance financière (France, UK, USA)</li>
+                        <li>Suivi des indicateurs de gestion, analyse des écarts réalisé/budget/forecast</li>
+                        <li>Reporting et tableaux de bord pour le top management</li>
+                        <li>Business partnering avec équipes opérationnelles</li>
+                        <li>Participation à la préparation budgétaire et aux forecasts</li>
+                    </ul>
+                </div>
             </div>
-            <div class="service-card">
-                <h3>📑 Consolidation IFRS</h3>
-                <p>Automatisation des comptes consolidés selon normes IFRS.</p>
+            <!-- Expérience 2 -->
+            <div class="timeline-item">
+                <div class="timeline-left">
+                    <span class="date">Mars 2024 - Juin 2024</span>
+                </div>
+                <div class="timeline-right">
+                    <h3>Consultante financière - Product owner stagiaire</h3>
+                    <p class="company">Generafi, Casablanca</p>
+                    <ul>
+                        <li>Élaboration d'un cahier des charges pour module de consolidation IFRS</li>
+                        <li>Digitalisation et automatisation des processus</li>
+                    </ul>
+                </div>
             </div>
-            <div class="service-card">
-                <h3>🔍 Due Diligence & ESG</h3>
-                <p>Analyse des risques, reporting CSRD, data room.</p>
+            <!-- Expérience 3 -->
+            <div class="timeline-item">
+                <div class="timeline-left">
+                    <span class="date">Janv 2024 - Mars 2024</span>
+                </div>
+                <div class="timeline-right">
+                    <h3>Contrôleur interne stagiaire</h3>
+                    <p class="company">Pasta di luidgi, Casablanca</p>
+                    <ul>
+                        <li>Réalisation de contrôles niveau 1 et 2</li>
+                        <li>Mise à jour du référentiel de contrôle interne</li>
+                        <li>Rédaction de rapports de contrôle</li>
+                    </ul>
+                </div>
             </div>
-            <div class="service-card">
-                <h3>📈 Contrôle de gestion</h3>
-                <p>Budgets, analyse des écarts, KPIs, pilotage performance.</p>
+            <!-- Expérience 4 -->
+            <div class="timeline-item">
+                <div class="timeline-left">
+                    <span class="date">Juin 2023 - Sept 2023</span>
+                </div>
+                <div class="timeline-right">
+                    <h3>Stagiaire auditrice</h3>
+                    <p class="company">Audit Concept, Casablanca</p>
+                    <ul>
+                        <li>Contrôles sur cycles comptables (charges, immobilisations, trésorerie)</li>
+                        <li>Vérification de conformité et justification des écarts</li>
+                        <li>Préparation de dossiers d'audit</li>
+                    </ul>
+                </div>
             </div>
-            <div class="service-card">
-                <h3>⚖️ Audit & Contrôle interne</h3>
-                <p>Audit comptable, conformité, évaluation des procédures.</p>
+            <!-- Expérience 5 -->
+            <div class="timeline-item">
+                <div class="timeline-left">
+                    <span class="date">Janv 2022 - Fév 2022</span>
+                </div>
+                <div class="timeline-right">
+                    <h3>Assistante service Comptabilité et recouvrement - audit risques</h3>
+                    <p class="company">EPEGA ASSURANCE, Casablanca</p>
+                    <ul>
+                        <li>Analyse des risques liés aux engagements financiers</li>
+                        <li>Préparation de justificatifs pour dossiers d'engagements bancaires</li>
+                        <li>Suivi des lignes de crédit et échéanciers</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Expérience 6 -->
+            <div class="timeline-item">
+                <div class="timeline-left">
+                    <span class="date">Mai 2021 - Sept 2021</span>
+                </div>
+                <div class="timeline-right">
+                    <h3>Contrôleur de gestion</h3>
+                    <p class="company">Autovalley, Casablanca</p>
+                    <ul>
+                        <li>Élaboration et suivi du budget opérationnel et industriel</li>
+                        <li>Analyse des coûts de production et des frais de structure</li>
+                        <li>Analyse des écarts coûts réels/standards</li>
+                        <li>Suivi des investissements CAPEX</li>
+                        <li>Tableaux de bord financiers</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Section Projets -->
-    <section id="projects">
-        <h2>Mes projets</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <h3>Logiciel de consolidation IFRS</h3>
-                <p>Automatisation des comptes consolidés (VBA, Excel).</p>
+    <!-- Section Expertises -->
+    <section id="expertises">
+        <h2>Mes expertises</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <i class="fas fa-chart-line fa-3x"></i>
+                <h3>Modélisation financière</h3>
+                <p>DCF, LBO, analyses de sensibilité pour évaluation d'entreprises et aide à la décision.</p>
             </div>
-            <div class="project-card">
+            <div class="card">
+                <i class="fas fa-file-invoice fa-3x"></i>
+                <h3>Consolidation IFRS</h3>
+                <p>Automatisation des comptes consolidés : éliminations, conversion, écarts d'acquisition.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-search fa-3x"></i>
+                <h3>Due Diligence & ESG</h3>
+                <p>Analyse des risques financiers et extra-financiers, data room, conformité CSRD.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-tachometer-alt fa-3x"></i>
+                <h3>Contrôle de gestion</h3>
+                <p>Budgets, analyse des écarts, KPIs, pilotage de la performance opérationnelle.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-balance-scale fa-3x"></i>
+                <h3>Audit & Contrôle interne</h3>
+                <p>Audit comptable, évaluation des procédures, contrôle interne, recommandations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets logiciels -->
+    <section id="projets">
+        <h2>Mes projets logiciels</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <i class="fas fa-database fa-3x"></i>
+                <h3>Consolidation IFRS</h3>
+                <p>Automatisation des comptes consolidés (VBA, Excel, Python).</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-leaf fa-3x"></i>
                 <h3>Reporting ESG</h3>
-                <p>Conforme aux normes CSRD (Python, Power BI).</p>
+                <p>Collecte et reporting conforme CSRD (Python, Power BI).</p>
             </div>
-            <div class="project-card">
-                <h3>Due Diligence tool</h3>
-                <p>Analyse de risques M&A (Excel, VBA).</p>
+            <div class="card">
+                <i class="fas fa-handshake fa-3x"></i>
+                <h3>Due Diligence</h3>
+                <p>Analyse de risques M&A (Excel avancé, VBA).</p>
             </div>
-            <div class="project-card">
+            <div class="card">
+                <i class="fas fa-chart-pie fa-3x"></i>
                 <h3>Modélisation DCF/LBO</h3>
                 <p>Évaluation d'entreprises (Excel).</p>
             </div>
         </div>
     </section>
 
-    <!-- Section À propos -->
-    <section id="about">
-        <h2>À propos de moi</h2>
-        <div class="about-content">
-            <p>Diplômée d'un MSc en Finance Internationale (Rennes SB), je combine une expérience terrain en finance opérationnelle (Descartes & Mauss) avec une expertise technique en développement d'outils financiers (consolidation IFRS, ESG). Je recherche un CDI en Corporate Finance, M&A ou Transaction Services en Île-de-France.</p>
+    <!-- Section Formations -->
+    <section id="formations">
+        <h2>Formations</h2>
+        <div class="formations-list">
+            <div class="formation-item">
+                <h3>MSc en Finance Internationale</h3>
+                <p class="institution">Rennes School of Business, Paris</p>
+                <p class="date">2024-2025</p>
+                <p class="details">Fusions-acquisitions, Corporate Finance, Finance de marché, RSE.</p>
+            </div>
+            <div class="formation-item">
+                <h3>Programme Grande École – Gestion financière et comptable</h3>
+                <p class="institution">Ecole nationale de commerce et de gestion, Casablanca</p>
+                <p class="date">2019-2024</p>
+                <p class="details">Fiscalité, Comptabilité, Gestion budgétaire, Finance d'entreprise, Consolidation, Audit.</p>
+            </div>
+            <div class="formation-item">
+                <h3>Baccalauréat sciences physiques – Mention très bien</h3>
+                <p class="institution">Abou Chouaib Doukali, Casablanca</p>
+                <p class="date">2018-2019</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Certifications -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certs-grid">
+            <div class="cert-item">Bloomberg Market Concepts (2024)</div>
+            <div class="cert-item">IFRS - Deloitte (2025)</div>
+            <div class="cert-item">Excel : VBA avancé (2026)</div>
+            <div class="cert-item">Internal Audit Awareness - The Knights of Safety™ Academy (2025)</div>
+            <div class="cert-item">Outlining the Financial Accounting Overview in SAP S/4HANA - SAP (2025)</div>
+            <div class="cert-item">M&A, Transaction Services - Trainy (2025)</div>
+            <div class="cert-item">Fundamentals of Sustainability and Technology (2025)</div>
+            <div class="cert-item">Behavioral Finance (2024)</div>
+            <div class="cert-item">Advanced Financial Accounting (2026)</div>
+            <div class="cert-item">Devenir analyste de données (2025)</div>
+            <div class="cert-item">Réaliser des reportings et des budgets pour convaincre - LinkedIn (2025)</div>
+        </div>
+    </section>
+
+    <!-- Section À propos et Contact -->
+    <section id="contact">
+        <h2>À propos & Contact</h2>
+        <div class="about-contact">
+            <div class="about-text">
+                <img src="profile.jpg" alt="Hasnaa Sammoud" class="profile-img" onerror="this.style.display='none'">
+                <p>Diplômée d'un MSc en Finance Internationale, je combine une expérience terrain en finance opérationnelle (Descartes & Mauss, Autovalley) avec une expertise technique en développement d'outils financiers (consolidation IFRS, reporting ESG). Rigoureuse, pédagogique et à l'aise avec les environnements normés, je souhaite évoluer vers un poste en Corporate Finance, M&A ou Transaction Services.</p>
+                <p><strong>Qualités :</strong> Esprit d'équipe, ouverture et curiosité, rigueur et sens du détail, gestion du temps et organisation.</p>
+                <p><strong>Centres d'intérêt :</strong> Artisanat, bénévolat, dessin numérique.</p>
+            </div>
+            <div class="contact-info">
+                <h3>Me contacter</h3>
+                <p><i class="fas fa-envelope"></i> hasnaesammoud@gmail.com</p>
+                <p><i class="fas fa-phone"></i> 07 48 48 73 26</p>
+                <p><i class="fas fa-map-marker-alt"></i> Île-de-France, France</p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/hasnaa-sammoud" target="_blank">LinkedIn</a></p>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>📧 hasnaesammoud@gmail.com | 📞 07 48 48 73 26 | 📍 Île-de-France</p>
+        <p>© 2026 Hasnaa Sammoud – Portfolio. Tous droits réservés.</p>
     </footer>
 
     <script src="script.js"></script>
