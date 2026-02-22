@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hasnaa Sammoud - Portfolio</title>
-    <!-- Font Awesome pour les icônes -->
+    <title>Hasnaa Sammoud - Financial Analyst</title>
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -21,89 +21,123 @@
         </ul>
     </nav>
 
-    <!-- Section Accueil (Hero) -->
-    <section id="home">
-        <div class="hero-content">
-            <h1>Hasnaa Sammoud</h1>
-            <p class="subtitle">Junior Analyst – Corporate Finance & Transactions</p>
-            <p class="desc">MSc Finance Internationale | Modélisation financière | Consolidation IFRS | Reporting ESG</p>
-            <a href="#contact" class="btn">Let's talk</a>
+    <!-- Section Héro avec photo à gauche -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-left">
+                <img src="hasnaa.jpg" alt="Hasnaa Sammoud" class="profile-photo">
+            </div>
+            <div class="hero-right">
+                <h1>Hello, I'm Hasnaa Sammoud</h1>
+                <h2>Junior Analyst – Corporate Finance & Transactions</h2>
+                <p class="hero-description">
+                    MSc en Finance Internationale | Modélisation financière | Consolidation IFRS | Reporting ESG.<br>
+                    Double compétence : finance opérationnelle & développement d'outils financiers.
+                </p>
+                <a href="#contact" class="btn">CONTACT ME</a>
+                
+                <!-- Statistiques -->
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">ANNÉES D'EXPÉRIENCE</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">PROJETS RÉALISÉS</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">CERTIFICATIONS</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Section Services -->
     <section id="services">
-        <h2>Services</h2>
+        <h2>Mes Expertises</h2>
+        <p class="section-subtitle">Je combine finance et technologie pour des solutions innovantes</p>
+        
         <div class="services-grid">
+            <!-- Service 1 -->
             <div class="service-card">
                 <i class="fas fa-chart-line"></i>
-                <h3>Financial Modeling</h3>
-                <p>DCF, LBO, sensitivity analysis for business valuation and investment decisions.</p>
+                <h3>Modélisation financière</h3>
+                <p>DCF, LBO, analyses de sensibilité pour évaluation d'entreprises.</p>
             </div>
+            <!-- Service 2 -->
             <div class="service-card">
                 <i class="fas fa-file-invoice"></i>
-                <h3>IFRS Consolidation</h3>
-                <p>Automation of consolidated accounts, eliminations, currency conversion, goodwill.</p>
+                <h3>Consolidation IFRS</h3>
+                <p>Automatisation des comptes consolidés, normes IFRS.</p>
             </div>
+            <!-- Service 3 -->
             <div class="service-card">
                 <i class="fas fa-search"></i>
                 <h3>Due Diligence & ESG</h3>
-                <p>Financial and extra-financial risk analysis, data room, CSRD compliance.</p>
+                <p>Analyse des risques, data room, conformité CSRD.</p>
             </div>
+            <!-- Service 4 -->
             <div class="service-card">
                 <i class="fas fa-tachometer-alt"></i>
-                <h3>Management Control</h3>
-                <p>Budgeting, variance analysis, KPIs, operational performance monitoring.</p>
+                <h3>Contrôle de gestion</h3>
+                <p>Budgets, analyse des écarts, KPIs, pilotage performance.</p>
             </div>
+            <!-- Service 5 -->
             <div class="service-card">
                 <i class="fas fa-balance-scale"></i>
-                <h3>Audit & Internal Control</h3>
-                <p>Accounting audit, procedure evaluation, internal control recommendations.</p>
+                <h3>Audit & Contrôle interne</h3>
+                <p>Audit comptable, évaluation des procédures.</p>
+            </div>
+            <!-- Service 6 -->
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Développement d'outils</h3>
+                <p>Applications VBA/Python pour automatisation financière.</p>
             </div>
         </div>
     </section>
 
-    <!-- Section Projects -->
+    <!-- Section Projets -->
     <section id="projects">
-        <h2>Projects</h2>
+        <h2>Mes Projets</h2>
+        <p class="section-subtitle">Des logiciels conçus pour la finance</p>
+        
         <div class="projects-grid">
             <div class="project-card">
                 <i class="fas fa-database"></i>
-                <h3>IFRS Consolidation Tool</h3>
-                <p>Automated consolidation software (VBA, Excel, Python).</p>
+                <h3>Consolidation IFRS</h3>
+                <p>Logiciel d'automatisation des comptes consolidés (VBA, Excel).</p>
             </div>
             <div class="project-card">
                 <i class="fas fa-leaf"></i>
-                <h3>ESG Reporting</h3>
-                <p>CSRD-compliant reporting tool (Python, Power BI).</p>
+                <h3>Reporting ESG</h3>
+                <p>Outil conforme CSRD (Python, Power BI).</p>
             </div>
             <div class="project-card">
                 <i class="fas fa-handshake"></i>
-                <h3>Due Diligence Tool</h3>
-                <p>M&A risk analysis (Excel, VBA).</p>
+                <h3>Due Diligence</h3>
+                <p>Analyse de risques M&A (Excel avancé, VBA).</p>
             </div>
             <div class="project-card">
                 <i class="fas fa-chart-pie"></i>
                 <h3>DCF/LBO Modeling</h3>
-                <p>Company valuation models (Excel).</p>
+                <p>Modèles d'évaluation (Excel).</p>
             </div>
         </div>
     </section>
 
-    <!-- Section About -->
+    <!-- Section À propos -->
     <section id="about">
-        <h2>About me</h2>
+        <h2>À propos de moi</h2>
         <div class="about-container">
-            <div class="about-image">
-                <img src="hasnaa.jpg" alt="Hasnaa Sammoud">
-            </div>
             <div class="about-text">
-                <h3>Who is Hasnaa Sammoud?</h3>
-                <p>Graduated with an MSc in International Finance from Rennes School of Business, I combine field experience in operational finance (budget monitoring, performance analysis) with technical expertise in financial tool development (IFRS consolidation, ESG reporting).</p>
-                <p>I've participated in fundraising preparation, financial modeling (DCF, LBO), and data room structuring. My goal is to bring a 360° vision to M&A and transaction services teams.</p>
-                <p><strong>Location:</strong> Île-de-France, France</p>
-                <p><strong>Looking for:</strong> A CDI in Corporate Finance, M&A, or Transaction Services.</p>
-                <a href="#contact" class="btn">Contact me</a>
+                <p>Diplômée d'un MSc en Finance Internationale (Rennes SB), j'ai développé une solide expérience en comptabilité budgétaire, suivi analytique, contrôle financier et reporting au sein d'organisations privées.</p>
+                <p>J'ai participé à une levée de fonds chez Descartes & Mauss et conçu des outils financiers innovants (consolidation IFRS, reporting ESG). Rigoureuse, pédagogique et à l'aise avec les environnements normés, je souhaite évoluer vers un poste en Corporate Finance, M&A ou Transaction Services.</p>
+                <p><strong>Qualités :</strong> Esprit d'équipe, ouverture, rigueur, organisation.</p>
+                <p><strong>Langues :</strong> Français (courant), Anglais (professionnel), Arabe (maternel).</p>
             </div>
         </div>
     </section>
@@ -118,16 +152,12 @@
                 <p><i class="fas fa-map-marker-alt"></i> Île-de-France, France</p>
                 <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/hasnaa-sammoud" target="_blank">LinkedIn</a></p>
             </div>
-            <div class="contact-social">
-                <p>Let's connect!</p>
-                <!-- Tu peux ajouter d'autres réseaux ici -->
-            </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>© 2026 Hasnaa Sammoud – Portfolio. All rights reserved.</p>
+        <p>© 2026 Hasnaa Sammoud – Portfolio. Tous droits réservés.</p>
     </footer>
 
     <script src="script.js"></script>
