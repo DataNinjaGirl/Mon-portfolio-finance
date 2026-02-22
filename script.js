@@ -4,6 +4,13 @@ document.querySelectorAll('nav a').forEach(link => {
         e.preventDefault();
         const targetId = this.getAttribute('href');
         const targetSection = document.querySelector(targetId);
-        targetSection.scrollIntoView({ behavior: 'smooth' });
+        if (targetSection) {
+            targetSection.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
     });
 });
+
+// Optionnel : fermer le menu mobile si tu en ajoutes un plus tard
