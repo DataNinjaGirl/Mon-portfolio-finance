@@ -3,145 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hasnaa Sammoud - Portfolio Finance</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #1e2b3c;
-            line-height: 1.6;
-        }
-        header {
-            background-color: #0a2540;
-            color: white;
-            text-align: center;
-            padding: 60px 20px;
-        }
-        header h1 {
-            font-size: 2.8rem;
-            margin: 0;
-            letter-spacing: -0.5px;
-        }
-        header p {
-            font-size: 1.3rem;
-            opacity: 0.9;
-            margin: 10px 0 0;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-        h2 {
-            color: #0a2540;
-            font-size: 2.2rem;
-            text-align: center;
-            margin-bottom: 40px;
-            border-bottom: 3px solid #e0e7ef;
-            padding-bottom: 15px;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-        }
-        .card {
-            background: #ffffff;
-            border-radius: 16px;
-            padding: 25px 20px;
-            box-shadow: 0 10px 25px rgba(0,20,50,0.08);
-            transition: transform 0.2s, box-shadow 0.2s;
-            border: 1px solid #eef2f6;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0,40,80,0.15);
-            border-color: #cbd5e0;
-        }
-        .card h3 {
-            color: #0a2540;
-            font-size: 1.6rem;
-            margin-top: 0;
-            margin-bottom: 15px;
-        }
-        .card p {
-            color: #2c3e50;
-            font-size: 0.95rem;
-            line-height: 1.6;
-            margin-bottom: 15px;
-        }
-        .card .techno {
-            color: #5d6d7e;
-            font-size: 0.9rem;
-            border-top: 1px dashed #d5dbdb;
-            padding-top: 12px;
-            margin-top: 10px;
-            font-style: italic;
-        }
-        footer {
-            background: #f8fafd;
-            text-align: center;
-            padding: 30px 20px;
-            color: #5a6b7c;
-            border-top: 1px solid #e2e8f0;
-        }
-        footer a {
-            color: #0a2540;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        footer a:hover {
-            text-decoration: underline;
-        }
-        @media (max-width: 600px) {
-            header h1 { font-size: 2rem; }
-            header p { font-size: 1.1rem; }
-        }
-    </style>
+    <title>Hasnaa Sammoud - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Hasnaa Sammoud</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Accueil (Hero) -->
+    <section id="home">
         <h1>Hasnaa Sammoud</h1>
         <p>Junior Analyst – Corporate Finance & Transactions</p>
         <p>MSc Finance Internationale | Modélisation financière | Consolidation IFRS | Reporting ESG</p>
-    </header>
+    </section>
 
-    <div class="container">
+    <!-- Section Services -->
+    <section id="services">
         <h2>Mes expertises</h2>
-        <div class="grid">
-            <div class="card">
+        <div class="services-grid">
+            <div class="service-card">
                 <h3>📊 Modélisation financière</h3>
-                <p>Construction de modèles DCF et LBO, analyses de sensibilité et scenarii pour l'évaluation d'entreprises et l'aide à la décision en opérations de croissance.</p>
-                <p class="techno">DCF · LBO · Valorisation · Sensibilité</p>
+                <p>DCF, LBO, analyses de sensibilité pour évaluation d'entreprises.</p>
             </div>
-            <div class="card">
+            <div class="service-card">
                 <h3>📑 Consolidation IFRS</h3>
-                <p>Automatisation des comptes consolidés selon normes IFRS : éliminations, conversion des devises, écarts d'acquisition. Production d'états financiers normés.</p>
-                <p class="techno">VBA · Excel · Python</p>
+                <p>Automatisation des comptes consolidés selon normes IFRS.</p>
             </div>
-            <div class="card">
+            <div class="service-card">
                 <h3>🔍 Due Diligence & ESG</h3>
-                <p>Analyse des données financières pour transactions M&A (EBITDA, BFR, capex) et intégration des critères ESG conformément à la CSRD.</p>
-                <p class="techno">Data room · Analyse de risques · CSRD</p>
+                <p>Analyse des risques, reporting CSRD, data room.</p>
             </div>
-            <div class="card">
+            <div class="service-card">
                 <h3>📈 Contrôle de gestion</h3>
-                <p>Élaboration de budgets, analyse des écarts, optimisation des coûts, suivi de KPIs et accompagnement des équipes opérationnelles.</p>
-                <p class="techno">Budget · Pilotage · Analyse de performance</p>
+                <p>Budgets, analyse des écarts, KPIs, pilotage performance.</p>
             </div>
-            <div class="card">
+            <div class="service-card">
                 <h3>⚖️ Audit & Contrôle interne</h3>
-                <p>Réalisation de missions d'audit comptable, évaluation des procédures, contrôle interne et recommandations correctives.</p>
-                <p class="techno">Audit · Conformité · Reporting</p>
+                <p>Audit comptable, conformité, évaluation des procédures.</p>
             </div>
         </div>
-    </div>
+    </section>
 
+    <!-- Section Projets -->
+    <section id="projects">
+        <h2>Mes projets</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Logiciel de consolidation IFRS</h3>
+                <p>Automatisation des comptes consolidés (VBA, Excel).</p>
+            </div>
+            <div class="project-card">
+                <h3>Reporting ESG</h3>
+                <p>Conforme aux normes CSRD (Python, Power BI).</p>
+            </div>
+            <div class="project-card">
+                <h3>Due Diligence tool</h3>
+                <p>Analyse de risques M&A (Excel, VBA).</p>
+            </div>
+            <div class="project-card">
+                <h3>Modélisation DCF/LBO</h3>
+                <p>Évaluation d'entreprises (Excel).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <div class="about-content">
+            <p>Diplômée d'un MSc en Finance Internationale (Rennes SB), je combine une expérience terrain en finance opérationnelle (Descartes & Mauss) avec une expertise technique en développement d'outils financiers (consolidation IFRS, ESG). Je recherche un CDI en Corporate Finance, M&A ou Transaction Services en Île-de-France.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <p>📧 hasnaesammoud@gmail.com | 📞 07 48 48 73 26 | 📍 Île-de-France</p>
-        <p>🔗 <a href="https://linkedin.com/in/..." target="_blank">LinkedIn</a></p>
-        <p>© 2025 Hasnaa Sammoud – Portfolio</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
-</html> 
+</html>
