@@ -24,12 +24,13 @@
                 <li><a href="#analyste" class="nav-link">Analyste</a></li>
                 <li><a href="#developpeuse" class="nav-link">Développeuse</a></li>
                 <li><a href="#certifiee" class="nav-link">Certifiée</a></li>
+                <li><a href="#excel" class="nav-link">Fichiers Excel</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Section avec photo -->
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-left" data-aos="fade-right" data-aos-duration="1000">
@@ -45,83 +46,92 @@
                 </div>
             </div>
             <div class="hero-right" data-aos="fade-left" data-aos-duration="1000">
-                <div class="profile-photo-placeholder">
-                    <i class="fas fa-user-circle"></i> <!-- Remplacer par ta photo quand disponible -->
-                </div>
+                <img src="hasnaa.jpg" alt="Hasnaa Sammoud" class="profile-photo">
             </div>
         </div>
     </section>
 
-    <!-- Section Analyste (expériences) -->
+    <!-- Section Analyste (expériences sans détails) -->
     <section id="analyste" class="section">
         <div class="container">
             <h2 class="section-title" data-aos="fade-up">En tant qu'Analyste</h2>
             <div class="timeline">
-                <!-- Exp 1 -->
+                <!-- Expérience 1 -->
                 <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">Sept 2024 - Sept 2025</div>
                     <div class="timeline-content">
                         <h3>Alternante en Finance opérationnelle</h3>
                         <p class="company">Descartes & Mauss, Paris</p>
+                        <!-- Détails mis en commentaire pour pouvoir les réactiver facilement -->
+                        <!-- 
                         <ul>
                             <li>Analyse de la performance financière (France, UK, USA).</li>
                             <li>Suivi des indicateurs de gestion et analyse des écarts.</li>
                             <li>Reporting et tableaux de bord pour le top management.</li>
                         </ul>
+                        -->
                     </div>
                 </div>
-                <!-- Exp 2 -->
+                <!-- Expérience 2 -->
                 <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">Mars 2024 - Juin 2024</div>
                     <div class="timeline-content">
                         <h3>Consultante financière - Product owner stagiaire</h3>
                         <p class="company">Generafi, Casablanca</p>
+                        <!-- 
                         <ul>
                             <li>Élaboration d'un cahier des charges pour module de consolidation IFRS.</li>
                             <li>Digitalisation et automatisation des processus.</li>
                         </ul>
+                        -->
                     </div>
                 </div>
-                <!-- Exp 3 -->
+                <!-- Expérience 3 -->
                 <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">Janv 2024 - Mars 2024</div>
                     <div class="timeline-content">
                         <h3>Contrôleur interne stagiaire</h3>
                         <p class="company">Pasta di luidgi, Casablanca</p>
+                        <!-- 
                         <ul>
                             <li>Réalisation de contrôles niveau 1 et 2.</li>
                             <li>Mise à jour du référentiel de contrôle interne.</li>
                         </ul>
+                        -->
                     </div>
                 </div>
-                <!-- Exp 4 -->
+                <!-- Expérience 4 -->
                 <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">Juin 2023 - Sept 2023</div>
                     <div class="timeline-content">
                         <h3>Stagiaire auditrice</h3>
                         <p class="company">Audit Concept, Casablanca</p>
+                        <!-- 
                         <ul>
                             <li>Contrôles sur cycles comptables.</li>
                             <li>Vérification de conformité et préparation de dossiers d'audit.</li>
                         </ul>
+                        -->
                     </div>
                 </div>
-                <!-- Exp 5 -->
+                <!-- Expérience 5 -->
                 <div class="timeline-item" data-aos="fade-up" data-aos-delay="500">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">Mai 2021 - Sept 2021</div>
                     <div class="timeline-content">
                         <h3>Contrôleur de gestion</h3>
                         <p class="company">Autovalley, Casablanca</p>
+                        <!-- 
                         <ul>
                             <li>Élaboration et suivi du budget.</li>
                             <li>Analyse des coûts et des écarts.</li>
                             <li>Suivi des investissements CAPEX.</li>
                         </ul>
+                        -->
                     </div>
                 </div>
             </div>
@@ -156,25 +166,6 @@
             </div>
         </div>
     </section>
-    <!-- Section Projets Excel -->
-<section id="excel-projets" class="section">
-    <div class="container">
-        <h2 class="section-title">Mes fichiers Excel</h2>
-        <div class="excel-grid">
-            <div class="excel-card">
-                <i class="fas fa-file-excel"></i>
-                <h3>Modèle DCF</h3>
-                <p><a href="excel-projets/modele-dcf.xlsx" download>Télécharger</a></p>
-            </div>
-            <div class="excel-card">
-                <i class="fas fa-file-excel"></i>
-                <h3>Consolidation IFRS</h3>
-                <p><a href="excel-projets/consolidation-ifrs.xlsx" download>Télécharger</a></p>
-            </div>
-            <!-- Ajoute autant de cartes que nécessaire -->
-        </div>
-    </div>
-</section>
 
     <!-- Section Certifiée -->
     <section id="certifiee" class="section">
@@ -197,8 +188,30 @@
         </div>
     </section>
 
+    <!-- Section Fichiers Excel -->
+    <section id="excel" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Fichiers Excel</h2>
+            <div class="excel-grid">
+                <!-- Exemple de carte pour un fichier Excel -->
+                <div class="excel-card" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fas fa-file-excel"></i>
+                    <h3>Modèle DCF</h3>
+                    <p><a href="excel-projets/modele-dcf.xlsx" download>Télécharger</a></p>
+                </div>
+                <div class="excel-card" data-aos="zoom-in" data-aos-delay="150">
+                    <i class="fas fa-file-excel"></i>
+                    <h3>Consolidation IFRS</h3>
+                    <p><a href="excel-projets/consolidation-ifrs.xlsx" download>Télécharger</a></p>
+                </div>
+                <!-- Ajoute ici d'autres cartes pour chaque fichier Excel -->
+            </div>
+            <p class="excel-note">Les fichiers sont régulièrement mis à jour. Revenez plus tard pour de nouvelles versions.</p>
+        </div>
+    </section>
+
     <!-- Section Contact -->
-    <section id="contact" class="section bg-light">
+    <section id="contact" class="section">
         <div class="container">
             <h2 class="section-title" data-aos="fade-up">Contact</h2>
             <div class="contact-container" data-aos="fade-up" data-aos-delay="200">
