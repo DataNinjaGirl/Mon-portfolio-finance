@@ -3,129 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hasnaa Sammoud - Portfolio</title>
-    <!-- Google Fonts pour une typo moderne -->
+    <title>Hasnaa Sammoud | Portfolio</title>
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome pour les icônes -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Animate.css pour des animations simples -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Navigation personnalisée -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">Hasnaa Sammoud</div>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#services" class="nav-link">Services</a></li>
-                <li><a href="#projects" class="nav-link">Projets</a></li>
-                <li><a href="#experiences" class="nav-link">Expériences</a></li>
-                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#analyste" class="nav-link">Analyste</a></li>
+                <li><a href="#developpeuse" class="nav-link">Développeuse</a></li>
+                <li><a href="#certifiee" class="nav-link">Certifiée</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Section Hero -->
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-container">
-            <div class="hero-left animate__animated animate__fadeInLeft">
-                <h1>Hello, I'm Hasnaa Sammoud</h1>
+            <div class="hero-left" data-aos="fade-right" data-aos-duration="1000">
+                <h1>Hasnaa Sammoud</h1>
                 <p class="hero-subtitle">Junior Analyst – Corporate Finance & Transactions</p>
                 <p class="hero-description">
                     MSc Finance Internationale | Modélisation financière | Consolidation IFRS | Reporting ESG<br>
                     Double compétence : finance opérationnelle & développement d'outils financiers.
                 </p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Contact Me</a>
-                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                    <a href="#contact" class="btn btn-primary">Contact me</a>
+                    <a href="#developpeuse" class="btn btn-secondary">Voir mes projets</a>
                 </div>
             </div>
-            <div class="hero-right animate__animated animate__fadeInRight">
-                <img src="hasnaa.jpg" alt="Hasnaa Sammoud" class="profile-photo">
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Services / Expertises -->
-    <section id="services" class="section">
-        <div class="container">
-            <h2 class="section-title">Mes expertises</h2>
-            <div class="cards-grid">
-                <div class="card">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Modélisation financière</h3>
-                    <p>DCF, LBO, analyses de sensibilité pour évaluation d'entreprises.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-file-invoice"></i>
-                    <h3>Consolidation IFRS</h3>
-                    <p>Automatisation des comptes consolidés, normes IFRS.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-search"></i>
-                    <h3>Due Diligence & ESG</h3>
-                    <p>Analyse des risques, data room, conformité CSRD.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-tachometer-alt"></i>
-                    <h3>Contrôle de gestion</h3>
-                    <p>Budgets, analyse des écarts, KPIs, pilotage performance.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-balance-scale"></i>
-                    <h3>Audit & Contrôle interne</h3>
-                    <p>Audit comptable, évaluation des procédures.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-code"></i>
-                    <h3>Développement d'outils</h3>
-                    <p>Applications VBA/Python pour automatisation financière.</p>
+            <div class="hero-right" data-aos="fade-left" data-aos-duration="1000">
+                <div class="profile-photo-placeholder">
+                    <i class="fas fa-user-circle"></i> <!-- Remplacer par ta photo quand disponible -->
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Section Projets -->
-    <section id="projects" class="section bg-light">
+    <!-- Section Analyste (expériences) -->
+    <section id="analyste" class="section">
         <div class="container">
-            <h2 class="section-title">Mes projets logiciels</h2>
-            <div class="cards-grid">
-                <div class="card">
-                    <i class="fas fa-database"></i>
-                    <h3>Consolidation IFRS</h3>
-                    <p>Logiciel d'automatisation des comptes consolidés (VBA, Excel).</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-leaf"></i>
-                    <h3>Reporting ESG</h3>
-                    <p>Outil conforme CSRD (Python, Power BI).</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-handshake"></i>
-                    <h3>Due Diligence</h3>
-                    <p>Analyse de risques M&A (Excel avancé, VBA).</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-chart-pie"></i>
-                    <h3>DCF/LBO Modeling</h3>
-                    <p>Modèles d'évaluation (Excel).</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Expériences (timeline améliorée) -->
-    <section id="experiences" class="section">
-        <div class="container">
-            <h2 class="section-title">Expériences professionnelles</h2>
+            <h2 class="section-title" data-aos="fade-up">En tant qu'Analyste</h2>
             <div class="timeline">
                 <!-- Exp 1 -->
-                <div class="timeline-item">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">Sept 2024 - Sept 2025</div>
                     <div class="timeline-content">
@@ -139,7 +72,7 @@
                     </div>
                 </div>
                 <!-- Exp 2 -->
-                <div class="timeline-item">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">Mars 2024 - Juin 2024</div>
                     <div class="timeline-content">
@@ -152,7 +85,7 @@
                     </div>
                 </div>
                 <!-- Exp 3 -->
-                <div class="timeline-item">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">Janv 2024 - Mars 2024</div>
                     <div class="timeline-content">
@@ -165,7 +98,7 @@
                     </div>
                 </div>
                 <!-- Exp 4 -->
-                <div class="timeline-item">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">Juin 2023 - Sept 2023</div>
                     <div class="timeline-content">
@@ -178,7 +111,7 @@
                     </div>
                 </div>
                 <!-- Exp 5 -->
-                <div class="timeline-item">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="500">
                     <div class="timeline-dot"></div>
                     <div class="timeline-date">Mai 2021 - Sept 2021</div>
                     <div class="timeline-content">
@@ -195,32 +128,61 @@
         </div>
     </section>
 
-    <!-- Section Certifications -->
-    <section id="certifications" class="section bg-light">
+    <!-- Section Développeuse (projets) -->
+    <section id="developpeuse" class="section bg-light">
         <div class="container">
-            <h2 class="section-title">Certifications</h2>
+            <h2 class="section-title" data-aos="fade-up">En tant que Développeuse</h2>
+            <div class="cards-grid">
+                <div class="card" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fas fa-database"></i>
+                    <h3>Consolidation IFRS</h3>
+                    <p>Logiciel d'automatisation des comptes consolidés (VBA, Excel, Python).</p>
+                </div>
+                <div class="card" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Reporting ESG</h3>
+                    <p>Outil conforme CSRD (Python, Power BI).</p>
+                </div>
+                <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Due Diligence</h3>
+                    <p>Analyse de risques M&A (Excel avancé, VBA).</p>
+                </div>
+                <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>DCF/LBO Modeling</h3>
+                    <p>Modèles d'évaluation (Excel).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Certifiée -->
+    <section id="certifiee" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Certifiée</h2>
             <div class="certs-grid">
-                <div class="cert-card"><i class="fas fa-certificate"></i> Bloomberg Market Concepts (2024)</div>
-                <div class="cert-card"><i class="fas fa-certificate"></i> IFRS - Deloitte (2025)</div>
-                <div class="cert-card"><i class="fas fa-certificate"></i> Excel : VBA avancé (2026)</div>
-                <div class="cert-card"><i class="fas fa-certificate"></i> Internal Audit Awareness (2025)</div>
-                <div class="cert-card"><i class="fas fa-certificate"></i> SAP S/4HANA Financial Accounting (2025)</div>
-                <div class="cert-card"><i class="fas fa-certificate"></i> M&A, Transaction Services (2025)</div>
-                <div class="cert-card"><i class="fas fa-certificate"></i> Fundamentals of Sustainability (2025)</div>
-                <div class="cert-card"><i class="fas fa-certificate"></i> Behavioral Finance (2024)</div>
-                <div class="cert-card"><i class="fas fa-certificate"></i> Advanced Financial Accounting (2026)</div>
-                <div class="cert-card"><i class="fas fa-certificate"></i> Devenir analyste de données (2025)</div>
-                <div class="cert-card"><i class="fas fa-certificate"></i> Reportings et budgets - LinkedIn (2025)</div>
-                <div class="cert-card"><i class="fas fa-certificate"></i> ALX Data Science (2025)</div>
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="100"><i class="fas fa-certificate"></i> Bloomberg Market Concepts (2024)</div>
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="150"><i class="fas fa-certificate"></i> IFRS - Deloitte (2025)</div>
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="200"><i class="fas fa-certificate"></i> Excel : VBA avancé (2026)</div>
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="250"><i class="fas fa-certificate"></i> Internal Audit Awareness (2025)</div>
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="300"><i class="fas fa-certificate"></i> SAP S/4HANA Financial Accounting (2025)</div>
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="350"><i class="fas fa-certificate"></i> M&A, Transaction Services (2025)</div>
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="400"><i class="fas fa-certificate"></i> Fundamentals of Sustainability (2025)</div>
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="450"><i class="fas fa-certificate"></i> Behavioral Finance (2024)</div>
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="500"><i class="fas fa-certificate"></i> Advanced Financial Accounting (2026)</div>
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="550"><i class="fas fa-certificate"></i> Devenir analyste de données (2025)</div>
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="600"><i class="fas fa-certificate"></i> Reportings et budgets - LinkedIn (2025)</div>
+                <div class="cert-card" data-aos="flip-left" data-aos-delay="650"><i class="fas fa-certificate"></i> ALX Data Science (2025)</div>
             </div>
         </div>
     </section>
 
     <!-- Section Contact -->
-    <section id="contact" class="section">
+    <section id="contact" class="section bg-light">
         <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact-container">
+            <h2 class="section-title" data-aos="fade-up">Contact</h2>
+            <div class="contact-container" data-aos="fade-up" data-aos-delay="200">
                 <div class="contact-info">
                     <p><i class="fas fa-envelope"></i> hasnaesammoud@gmail.com</p>
                     <p><i class="fas fa-phone"></i> 07 48 48 73 26</p>
@@ -236,6 +198,15 @@
         <p>© 2026 Hasnaa Sammoud – Portfolio. Tous droits réservés.</p>
     </footer>
 
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
