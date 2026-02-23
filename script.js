@@ -11,6 +11,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
-
-// Optionnel : animation supplémentaire au survol des cartes
-// Déjà géré en CSS, mais on peut ajouter du JS pour plus d'effets
